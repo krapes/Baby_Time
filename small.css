@@ -1,0 +1,131 @@
+body {
+	font-family: 'Playball', cursive;
+}
+
+.banner img{
+	position: absolute;
+	z-index: 100;
+	margin-top: 36%;
+	max-width: 80%;
+	
+	}
+
+.banner h1{
+	position: absolute;
+	font-family: 'Playball', cursive;
+	font-weight: lighter;
+	color: #E44E4E;
+	-webkit-transform: scale(3,6);
+	transform: scale(3,6);
+	z-index: 10;
+	font-size: 4vw;
+}
+
+
+
+.container{
+	position: relative;
+	width:100%;
+	height: 80vw;
+	
+}
+
+.txt2{
+	margin-top:30%;
+	margin-left:47%;
+}
+
+.txt1 {
+	margin-top: 10%;
+	margin-left:47%;
+}
+
+.banner p{
+	font-family: 'Playball';
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
+.pitch {
+	font-size: 18px;
+    width: calc(100% - 30px);   
+    padding-left:15px; 
+}
+
+
+
+.calander{
+  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	
+	-webkit-box-ordinal-flex-wrap: wrap;   /* OLD - iOS 6-, Safari 3.1-6 */
+  	-moz-box-ordinal-flex-wrap: wrap;      /* OLD - Firefox 19- */
+  	-ms-flex-flex-wrap: wrap;              /* TWEENER - IE 10 */
+  	-webkit-flex-wrap: wrap;               /* NEW - Chrome */
+     flex-wrap: wrap;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	
+
+	margin-right:auto;
+	margin-left: auto;
+	max-width: 800px;
+	font-weight: lighter;
+	
+}
+
+.calander m {
+	width: 120px;
+	height: 100px;
+	padding: 15px;
+	font-size: 4vw;
+
+}
+
+.calander h1{
+	font-size: 20px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+}
+
+.calander ul{
+	margin-top: 0px;
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	
+	-webkit-box-ordinal-flex-wrap: wrap;   /* OLD - iOS 6-, Safari 3.1-6 */
+  	-moz-box-ordinal-flex-wrap: wrap;      /* OLD - Firefox 19- */
+  	-ms-flex-flex-wrap: wrap;              /* TWEENER - IE 10 */
+  	-webkit-flex-wrap: wrap;               /* NEW - Chrome */
+     flex-wrap: wrap;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	
+	padding-left:0;
+	margin-left:5%;
+}
+
+.calander li{
+	padding-left: 10px;
+	list-style-position: inside;
+	font-size: 15px;
+}
+
+.fifthteen m{
+	color: #6767B1;
+}
+
+.sixteen {
+	color: #A93A8F;
+}
+
+.fifthteen li {
+	color: #E44E4E;
+}
+
+.sixteen li{
+	color: #E44E4E;
+}

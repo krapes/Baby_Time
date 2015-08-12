@@ -1,0 +1,62 @@
+.banner img{
+	position:fixed;
+	width:20vw;
+	/*max-width: 800px; */
+	margin-left: 47%;
+	margin-right:auto;
+	z-index: 100;
+	margin-top: 32%;
+	}
+
+.banner h1{
+	position: fixed;
+	font-family: 'Playball', cursive;
+	font-weight: lighter;
+	color: #E44E4E;
+	transform: scale(1.5,6);
+	z-index: 1;
+	font-size: 4vw;
+}
+
+.banner main{
+	max-width: 500px;
+	margin-top: 20vh;
+}
+
+.txt2{
+	margin-top:30%;
+	margin-left: 40%;
+}
+
+.txt1 {
+	margin-top: 10%;
+	margin-left: 43%;
+}
+.banner p{
+	font-family: 'Playball';
+	margin-left: 5%;
+	margin-right: 5%;
+	/*background-color: gray;*/
+}
+
+.banner pitch{
+	
+}
+
+
+
+.calander{
+	visibility: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right:auto;
+	margin-left: auto;
+	max-width: 800px;
+	
+}
+
+.calander m {
+	max-width: 25%;
+	padding: 25px;
+
+}
