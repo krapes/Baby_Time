@@ -2,6 +2,74 @@ body {
 	font-family: 'Playball', cursive;
 }
 
+.art {
+	display: flex;
+	flex-wrap: wrap;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.line {
+	width: 45%;
+	height: 3vh;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+	/*.line:before,*/
+	.line:after{
+	    display: flex;
+	    position: absolute; 
+	    width: 100%;
+	    height: 1.5vh;
+	    content: '';
+	    	}
+
+	/*.line:before{
+		border-bottom: 2px solid #8C8A8A;
+		top: 0vh;
+	}*/
+	.line:after{
+		top: .5vh;
+		border-top: 2px solid #8C8A8A;
+	}
+
+
+.heart-shape{
+    position: relative;
+    width: 5px;
+    height: 5px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #8C8A8A;
+    
+}
+	.heart-shape:before,
+	.heart-shape:after{
+	    position: absolute;
+	    width: 4px;
+	    height: 4px;
+	    content: '';
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    -o-border-radius: 50%;
+	    border-radius: 50%;
+	    background-color: #8C8A8A;
+	}
+	.heart-shape:before{
+	    bottom: 0px;
+	    left: -2px;
+	}
+	.heart-shape:after{
+	    top: -2px;
+	    right: 0px;
+	}
+
+
 .banner img{
 	position: absolute;
 	z-index: 100;

@@ -1,3 +1,25 @@
+.heart-shape{
+    width: 10px;
+    height: 10px;
+}
+	.heart-shape:before,
+	.heart-shape:after{
+	    
+	    width: 10px;
+	    height: 10px;
+	    content: '';
+	}
+	.heart-shape:before{
+	    bottom: 0px;
+	    left: -5px;
+	}
+	.heart-shape:after{
+	    top: -5px;
+	    right: 0px;
+	}
+
+
+
 .container{
 	width: 600px;
 	height: 480px;
