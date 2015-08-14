@@ -134,6 +134,9 @@ body {
     padding-left:15px; 
 }
 
+.btn {
+	visibility: hidden;
+}
 
 
 .calander{

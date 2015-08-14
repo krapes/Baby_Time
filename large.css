@@ -1,5 +1,20 @@
+body{
+	background-image: url('images/landscape.png');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom; 
+    background-size: 100%;
+}
+
 .art{
 	margin-top: 3vh;
+}
+
+.title{
+	font-weight: bold;
+	font-size: 40px;
+	color: #565454;
+	text-align: center;
 }
 
 .banner h1 {
@@ -16,11 +31,13 @@
 	}
 
 .banner img {
-	max-width: 250%;
-	left: -800px;
+	max-width: 125%;
+	left: -200px;
 	margin-top:0;
-	top: 10vh;
+	top: calc(100vh - 413px);
 	z-index: 1;
+
+	
 }
 
 @media (max-height: 650px) {
@@ -35,13 +52,13 @@
 	left: 50%;
 }
 .txt2{
-	top: 44vh;
+	top: 37vh;
 	margin-bottom: 0px;
 	margin-top: 7%;
 }
 
 .txt1 {
-	top: 14vh;
+	top: 5vh;
 }
 
 .pitch {
@@ -54,6 +71,7 @@
 }
 
 .btn {
+	visibility: visible;
 	position: absolute;
 	left: 35%;
 	width: 150px;
