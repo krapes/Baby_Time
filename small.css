@@ -157,6 +157,7 @@ body {
 	margin-left: auto;
 	max-width: 800px;
 	font-weight: lighter;
+	justify-content: center;
 	
 }
 
@@ -190,6 +191,7 @@ body {
 	
 	padding-left:0;
 	margin-left:5%;
+	justify-content: center;
 }
 
 .calander li{

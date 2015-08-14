@@ -20,6 +20,7 @@ body{
 .banner h1 {
 	-webkit-transform: scale(3.5,13);
 	transform: scale(3.5,13);
+	font-size: 20px;
 }
 
 @media (max-height: 750px) {
@@ -81,13 +82,14 @@ body{
 	padding: 8px;
 	background-color: #8C8A8A;
 	text-align: center;
+	text-decoration: none;
 }
 
 .calander {
 	visibility: hidden;
-	position: absolute;
+/*	position: absolute;
 	margin-left: 0px;
-
+*/
 	
 }
 
@@ -103,23 +105,23 @@ body{
 }
 
 .fifthteen {
-	left: 3%;
+/*	left: 3%;
 	top: 6%;
-	width: 40%;
-	max-width: 400px;
+	width: 40%; 
+	max-width: 400px; */
 	font-size: 18px;
 }
 
 
 
 .sixteen {
-	left: 3%;
+/*	left: 3%;
 	top: 26%;
-	width: 40%;
-	max-width: 400px;
+	width: 40%; 
+	max-width: 400px; */
 	font-size: 18px;
 }
-
+/*
 @media (max-height: 770px) {
 	.fifthteen {
 		top: 50px;
@@ -127,5 +129,7 @@ body{
 
 	.sixteen{
 		top: 200px;
-	}
+	}*/
 }
+
+
