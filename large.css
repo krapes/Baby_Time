@@ -11,6 +11,7 @@ body{
 }
 
 .title{
+	display: block;
 	font-weight: bold;
 	font-size: 40px;
 	color: #565454;
@@ -18,15 +19,15 @@ body{
 }
 
 .banner h1 {
-	-webkit-transform: scale(3.5,13);
+	-webkit-transform: scale(3.5,10);
 	transform: scale(3.5,13);
 	font-size: 20px;
 }
 
 @media (max-height: 750px) {
 	.banner h1{
-		-webkit-transform: scale(3.5,13);
-		transform: scale(3.5,13);
+		-webkit-transform: scale(3.5,10);
+		transform: scale(3.5,10);
 		font-size: 3vh;
 		}
 	}
@@ -87,21 +88,56 @@ body{
 
 .calander {
 	visibility: hidden;
+	margin-bottom: 10px;
 /*	position: absolute;
 	margin-left: 0px;
 */
+	display: block;
+	background-color: rgba(255,255,255,0.5);
 	
 }
 
 .calander m {
-	width: 95px;
-	height: 50px;
+	/*width: 95px;
+	height: 50px;*/
 	padding: 10px;
+	background-color: #E3EAF1;
+	border-radius: 25px;
+	margin: 5px;
 }
 
 .calander h1 {
 	font-size: 18px;
 	margin-left: auto;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.calander ul {
+	margin-bottom: 2px;
+}
+
+.calander m ul{
+	justify-content: left;
+}
+
+.year {
+	text-align: center;
+	border-radius: 16px 16px 0px 0px;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+
+.year15{
+	background-color: #6767B1;
+	
+}
+
+.year16 {
+	background-color: #E44E4E;
+	
 }
 
 .fifthteen {
@@ -110,6 +146,8 @@ body{
 	width: 40%; 
 	max-width: 400px; */
 	font-size: 18px;
+	border: 3px solid #6767B1;
+	border-radius: 25px;
 }
 
 
@@ -120,6 +158,8 @@ body{
 	width: 40%; 
 	max-width: 400px; */
 	font-size: 18px;
+	border: 3px solid #E44E4E;
+	border-radius: 25px;
 }
 /*
 @media (max-height: 770px) {
