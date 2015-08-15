@@ -89,77 +89,19 @@ body{
 .calander {
 	visibility: hidden;
 	margin-bottom: 10px;
-/*	position: absolute;
-	margin-left: 0px;
-*/
-	display: block;
-	background-color: rgba(255,255,255,0.5);
-	
 }
 
-.calander m {
-	/*width: 95px;
-	height: 50px;*/
-	padding: 10px;
-	background-color: #E3EAF1;
-	border-radius: 25px;
-	margin: 5px;
-}
 
 .calander h1 {
 	font-size: 18px;
-	margin-left: auto;
-	margin-top: 0px;
-	text-align: center;
-}
-
-.calander ul {
-	margin-bottom: 2px;
-}
-
-.calander m ul{
-	justify-content: left;
-}
-
-.year {
-	text-align: center;
-	border-radius: 16px 16px 0px 0px;
-	color: white;
-	font-size: 25px;
-	font-weight: bold;
-	
-}
-
-.year15{
-	background-color: #6767B1;
-	
-}
-
-.year16 {
-	background-color: #E44E4E;
-	
 }
 
 .fifthteen {
-/*	left: 3%;
-	top: 6%;
-	width: 40%; 
-	max-width: 400px; */
 	font-size: 18px;
-	border: 3px solid #6767B1;
-	border-radius: 25px;
 }
 
-
-
 .sixteen {
-/*	left: 3%;
-	top: 26%;
-	width: 40%; 
-	max-width: 400px; */
 	font-size: 18px;
-	border: 3px solid #E44E4E;
-	border-radius: 25px;
 }
 /*
 @media (max-height: 770px) {

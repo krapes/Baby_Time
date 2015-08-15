@@ -4,7 +4,7 @@ body {
 
 .title{
 	display: none;
-	
+
 }
 .art {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -144,17 +144,17 @@ body {
 
 
 .calander{
-  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  	display: -ms-flexbox;      /* TWEENER - IE 10 */
-  	display: -webkit-flex;     /* NEW - Chrome */
-  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	/*display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	/*display: -webkit-flex;     /* NEW - Chrome */
+  	/*display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	
-	-webkit-box-ordinal-flex-wrap: wrap;   /* OLD - iOS 6-, Safari 3.1-6 */
-  	-moz-box-ordinal-flex-wrap: wrap;      /* OLD - Firefox 19- */
-  	-ms-flex-flex-wrap: wrap;              /* TWEENER - IE 10 */
-  	-webkit-flex-wrap: wrap;               /* NEW - Chrome */
-     flex-wrap: wrap;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	/*-webkit-box-ordinal-flex-wrap: wrap;   /* OLD - iOS 6-, Safari 3.1-6 */
+  	/*-moz-box-ordinal-flex-wrap: wrap;      /* OLD - Firefox 19- */
+  	/*-ms-flex-flex-wrap: wrap;              /* TWEENER - IE 10 */
+  	/*-webkit-flex-wrap: wrap;               /* NEW - Chrome */
+     /*flex-wrap: wrap;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	
 
 	margin-right:auto;
@@ -162,14 +162,21 @@ body {
 	max-width: 800px;
 	font-weight: lighter;
 	justify-content: center;
+	margin-bottom: 10px;
+	display: block;
+	background-color: rgba(255,255,255,0.5);
 	
 }
 
 .calander m {
-	width: 120px;
-	height: 100px;
-	padding: 15px;
+	width: 100px;
+	height: 80px;
+	/*padding: 15px;*/
 	font-size: 4vw;
+	padding: 10px;
+	background-color: #E3EAF1;
+	border-radius: 25px;
+	margin: 5px;
 
 }
 
@@ -177,6 +184,9 @@ body {
 	font-size: 20px;
 	font-weight: lighter;
 	margin-bottom: 0px;
+	margin-left: auto;
+	margin-top: 0px;
+	text-align: center;
 }
 
 .calander ul{
@@ -196,20 +206,47 @@ body {
 	padding-left:0;
 	margin-left:5%;
 	justify-content: center;
+	margin-bottom: 2px;
 }
 
+.calander m ul{
+	justify-content: left;
+}
 .calander li{
 	padding-left: 10px;
 	list-style-position: inside;
 	font-size: 15px;
 }
 
-.fifthteen m{
+.year {
+	text-align: center;
+	border-radius: 16px 16px 0px 0px;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+.year15{
+	background-color: #6767B1;
+	
+}
+
+.year16 {
+	background-color: #E44E4E;
+	
+}
+
+.fifthteen {
 	color: #6767B1;
+	border: 3px solid #6767B1;
+	border-radius: 25px;
 }
 
 .sixteen {
-	color: #A93A8F;
+	color: #6767B1;
+	border: 3px solid #E44E4E;
+	border-radius: 25px;
 }
 
 .fifthteen li {
