@@ -87,7 +87,7 @@ body{
 }
 
 .calander {
-	visibility: hidden;
+	display: none;
 	margin-bottom: 10px;
 }
 
