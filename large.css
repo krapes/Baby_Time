@@ -6,6 +6,23 @@ body{
     background-size: 100%;
 }
 
+.nav_bar {
+	display: flex;
+}
+
+.nav_bar tab{
+	width:30%;
+	margin-top: 10px;
+}
+.nav_bar .nav{
+	font-weight: lighter;
+	font-size: 30px;
+	text-align: left;
+	color: #565454;
+	padding: 15px;
+	text-decoration: none;
+}
+
 .art{
 	margin-top: 3vh;
 }
@@ -16,6 +33,7 @@ body{
 	font-size: 40px;
 	color: #565454;
 	text-align: center;
+	width:40%;
 }
 
 .banner h1 {
