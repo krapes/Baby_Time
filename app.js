@@ -15,6 +15,14 @@ var main = function(){
 			$(this).css('background-color','#E3EAF1')
 		}
 	);
+	$('.nav, .social').hover(
+		function(){
+			$(this).css('text-shadow', '10px 10px 10px rgba(183, 213, 243, 0.55)');
+		},
+		function(){
+			$(this).css('text-shadow', '10px 10px 10px rgba(170, 170, 170, 0.55)')
+		}
+	);
 
 }
 
