@@ -19,7 +19,9 @@
 	}
 
 
-
+.title{
+	font-size: 23px;
+}
 .container{
 	width: 600px;
 	height: 480px;

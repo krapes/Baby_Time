@@ -7,17 +7,25 @@
     <link rel="stylesheet" media='screen and (min-width: 1200px)'href="medium.css">
     
     <link rel="stylesheet" media='screen and (min-width: 1200px)'href="large.css">
+    <style>	
+    
+	@import url(http://weloveiconfonts.com/api/?family=brandico);
 
+	/* brandico */
+		[class*="brandico-"]:before {
+	  	font-family: 'brandico', sans-serif;
+		padding-right: 20px;
+	    padding-left: 20px;
+		text-shadow: 3px 3px 3px #aaa;
+		color: #565454
+		}
+			}
+  </style>
+  
   </head>
   <body>
-  	<div class="nav_bar">
-  		<tab>
-  			<a href="#" class="nav btn_home">Home</a>
-  			<a href="#" class="nav btn_cal">Calander</a>
-		</tab>
-  		<div class="title">Great Pedela Baby Race</div>
-  		<tab></tab>
-	</div>
+  	
+  	
   	<div class="art">
   		<div class="line">
 		</div>
@@ -90,9 +98,20 @@
 			</m>
 		</ul>
 	</div>
+	<div  class="nav_bar">
+  		<tab>
+  			<a href="#" id="btn_home" class="nav">Home</a>
+  			<a href="#" id="btn_cal" class="nav">Calander</a>
+		</tab>
+  		<div class="title">Great Pedela Baby Race</div>
+  		<tab class="social">
+  			<a href="https://github.com/krapes/Baby_Time" class="brandico-github"></a>
+  		</tab>
+	</div>
 
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-    <script src="app.js"></script>
+	<script src="app.js"></script>
+    
   </body>
  </html>
 

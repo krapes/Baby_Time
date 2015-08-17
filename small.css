@@ -2,9 +2,40 @@ body {
 	font-family: 'Playball', cursive;
 }
 
-.nav_bar{
-	display: none;
+.nav_bar {
+	display: flex;
+}
 
+.nav_bar tab{
+	width:30%;
+	margin-top: 10px;
+}
+.nav_bar .nav{
+	visibility: hidden;
+	font-weight: lighter;
+	font-size: 2vw;
+	text-align: left;
+	color: #565454;
+	padding: 15px;
+	text-decoration: none;
+	text-shadow: 3px 3px 3px rgba(170, 170, 170, 0.55);
+}
+
+.social {
+	text-align: right;
+}
+
+.art{
+	margin-top: 3vh;
+}
+
+.title{
+	display: block;
+	font-weight: bold;
+	font-size: 4vw;
+	color: #565454;
+	text-align: center;
+	width:40%;
 }
 .art {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -34,7 +65,7 @@ body {
 	margin-right: auto;
 	position: relative;
 }
-	/*.line:before,*/
+	
 	.line:after{
 	    display: flex;
 	    position: absolute; 
@@ -43,10 +74,7 @@ body {
 	    content: '';
 	    	}
 
-	/*.line:before{
-		border-bottom: 2px solid #8C8A8A;
-		top: 0vh;
-	}*/
+	
 	.line:after{
 		top: .5vh;
 		border-top: 2px solid #8C8A8A;
@@ -125,6 +153,10 @@ body {
 	margin-left:47%;
 }
 
+.banner {
+	display:block;
+}
+
 .banner p{
 	font-family: 'Playball';
 	margin-left: 5%;
@@ -136,6 +168,7 @@ body {
 	font-size: 18px;
     width: calc(100% - 30px);   
     padding-left:15px; 
+    display: block;
 }
 
 .btn {
@@ -144,19 +177,7 @@ body {
 
 
 .calander{
-  	/*display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  	/*display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  	/*display: -ms-flexbox;      /* TWEENER - IE 10 */
-  	/*display: -webkit-flex;     /* NEW - Chrome */
-  	/*display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	
-	/*-webkit-box-ordinal-flex-wrap: wrap;   /* OLD - iOS 6-, Safari 3.1-6 */
-  	/*-moz-box-ordinal-flex-wrap: wrap;      /* OLD - Firefox 19- */
-  	/*-ms-flex-flex-wrap: wrap;              /* TWEENER - IE 10 */
-  	/*-webkit-flex-wrap: wrap;               /* NEW - Chrome */
-     /*flex-wrap: wrap;                  /* NEW, Spec - Opera 12.1, Firefox 20+ */
-	
-
+  	
 	margin-right:auto;
 	margin-left: auto;
 	max-width: 800px;
@@ -171,7 +192,6 @@ body {
 .calander m {
 	width: 100px;
 	height: 80px;
-	/*padding: 15px;*/
 	font-size: 4vw;
 	padding: 10px;
 	background-color: #E3EAF1;
