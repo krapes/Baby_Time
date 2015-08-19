@@ -7,12 +7,9 @@ body{
 }
 
 
-.nav_bar {
-	display: flex;
-}
+
 
 .nav_bar tab{
-	width:30%;
 	margin-top: 10px;
 }
 .nav_bar .nav{
@@ -43,7 +40,7 @@ body{
 	font-size: 40px;
 	color: #565454;
 	text-align: center;
-	width:40%;
+	
 }
 
 .banner h1 {
