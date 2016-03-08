@@ -274,7 +274,7 @@ body {
     justify-content: flex-starts;  
     justify-content: flex-start;                /* NEW, Spec - Opera 12.1,*/
 }
-.calander li{
+.calander  li{
 	padding-left: 10px;
 	list-style-position: inside;
 	font-size: 15px;
@@ -318,4 +318,43 @@ body {
 
 .year2016 li{
 	color: #E44E4E;
+}
+
+.input {
+	display: none;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin-left: -40%;
+	margin-top: -32vw;
+	width: 80%;
+	max-width: 480px;
+	height: 64vw;
+	max-height: 384px;
+	font-size: 6vw;
+	
+	background-color: rgba(183, 213, 243, 0.9);
+	border-radius: 20%;
+	/*margin: 25px;*/
+	z-index: 110;
+}
+
+.input h1{
+	font-size: 9vw;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-top: 0px;
+	text-align: center;
+	color: #6767B1;
+}
+
+.input li{
+	list-style-type: none;
+	margin-left: 10%;
+	color: #E44E4E;
+}
+
+.form { 
+	display:none;
 }

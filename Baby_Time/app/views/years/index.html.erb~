@@ -11,6 +11,7 @@
 
 
           <% ass = Assignment.where(year_id: y.id).find_by_month_id(m.id) %>
+	  <%= ass.id%>
 
 	  <%= form_for @user do |f| %>
 	  <%= f.hidden_field :assignment_id, :value => ass.id %>

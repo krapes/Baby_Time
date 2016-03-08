@@ -23,6 +23,15 @@ var main = function(){
 			$(this).css('text-shadow', '10px 10px 10px rgba(170, 170, 170, 0.55)')
 		}
 	);
+	
+	$(document).click(handleInput);
+
+
+	
+	
+	
+		
+
 
 }
 
@@ -57,5 +66,31 @@ var handleWidthChange = function(mql)
     }
 
 }
+
+var openForm = function(e){
+	var divToCopy = $(e);
+	while (!$('m').is(divToCopy))
+	{divToCopy = divToCopy.parent();}
+	var info = $(divToCopy).contents().clone()
+	$('.input').append(info).fadeIn(600);
+	$('.input').children('div').fadeIn(600);
+
+}
+
+var closeForm = function(){
+	$('.input').contents().remove();
+	$('.input').fadeOut(600);
+}
+
+var handleInput = function (e)
+	{
+		var display = $('.input').css('display') == 'block';
+		var mTarget = $('m').is(e.target)  || $('m').has(e.target).length != 0;
+		var inputTarget = $('.input').is(e.target)  || $('.input').has(e.target).length != 0;
+		if (!display && mTarget)
+			{openForm(e.target);}
+		else if (display && !inputTarget )
+	    {closeForm();}
+	}
 
 $(document).ready(main);

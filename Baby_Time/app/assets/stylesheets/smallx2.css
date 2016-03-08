@@ -100,13 +100,18 @@
 }
 
 
-.fifthteen {
+.year2015 {
 	border: 6px solid #6767B1;
 	border-radius: 50px;
 }
 
-.sixteen {
+.year2016 {
 	border: 6px solid #E44E4E;
 	border-radius: 50px;
+}
+
+.input {
+	max-width: 960px;
+	max-height: 768px;
 }
 
