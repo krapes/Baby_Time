@@ -4,26 +4,30 @@
     <div class="year yeartitle<%= y.name %>"><%= y.name %></div>
     <ul><% y.months.each do |m| %>
       <m><h1><%= m.nam %></h1>
-        <% m.users.each do |u| %>
-        <li><%= u.name %></li>
-        <% end %>
+        
         <div class="form">
-
-
           <% ass = Assignment.where(year_id: y.id).find_by_month_id(m.id) %>
-	  <%= ass.id%>
-
 	  <%= form_for @user do |f| %>
 	  <%= f.hidden_field :assignment_id, :value => ass.id %>
 	  <%= f.text_field :name %>
-	 
-	 
           <%= f.submit %>
-          <% end %>
-          
-
-          
+          <% end %>    
         </div>
+	
+	  <% count = 0 %>
+	  <% m.users.each do |u| %>
+		  <% count = count + 1%>
+		  <% if count > 3 %>
+			<% if count == 4 %>
+			  <li class="ellipse">...</li>
+			<% end %>
+			<li class="extra_names"><%= u.name %></li>
+		  <% else %>
+			<li><%= u.name %></li>
+		  <% end %>
+          
+          <% end %>
+	
       </m>
       <% end %>
     </ul>
