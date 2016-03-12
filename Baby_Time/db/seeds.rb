@@ -1,9 +1,26 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
-
-a = Assignment.create(year_id: 1, month_id: 9)
+Year.create("name"=>"2016")
+Year.create("name"=>"2017")
+Month.create("nam"=>"January")
+Month.create("nam"=>"February")
+Month.create("nam"=>"March")
+Month.create("nam"=>"April")
+Month.create("nam"=>"May")
+Month.create("nam"=>"June")
+Month.create("nam"=>"July")
+Month.create("nam"=>"August")
+Month.create("nam"=>"September")
+Month.create("nam"=>"October")
+Month.create("nam"=>"November")
+Month.create("nam"=>"December")
+Assignment.create("year_id"=>1, "month_id"=>4)
+Assignment.create("year_id"=>1, "month_id"=>5)
+Assignment.create("year_id"=>1, "month_id"=>6)
+Assignment.create("year_id"=>1, "month_id"=>7)
+Assignment.create("year_id"=>1, "month_id"=>8)
+Assignment.create("year_id"=>1, "month_id"=>9)
+Assignment.create("year_id"=>1, "month_id"=>10)
+Assignment.create("year_id"=>1, "month_id"=>11)
+Assignment.create("year_id"=>1, "month_id"=>12)
+Assignment.create("year_id"=>2, "month_id"=>1)
+Assignment.create("year_id"=>2, "month_id"=>2)
+Assignment.create("year_id"=>2, "month_id"=>3)
