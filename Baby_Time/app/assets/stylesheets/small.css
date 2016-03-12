@@ -290,7 +290,7 @@ body {
 	
 }
 
-.yeartitle2015{
+.yeartitle2017{
 	background-color: #6767B1;
 	
 }
@@ -300,7 +300,7 @@ body {
 	
 }
 
-.year2015 {
+.year2017 {
 	color: #6767B1;
 	border: 3px solid #6767B1;
 	border-radius: 25px;
@@ -369,7 +369,17 @@ body {
 	padding: 0px;
 	border: 0px;
 	color: #447D2E;
-	text-shadow: 6px, 2px, 10px rgba(183, 213, 243, 0.55)
+	text-shadow: 6px 2px 10px;
+	transform: rotate(10deg);
+	
+}
+
+.input #user_name{
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	font-size: 2vh;
+	font-family: playball;
 }
 
 .form { 
