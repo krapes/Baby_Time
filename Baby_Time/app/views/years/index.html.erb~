@@ -10,7 +10,10 @@
 	  <%= form_for @user do |f| %>
 	  <%= f.hidden_field :assignment_id, :value => ass.id %>
 	  <%= f.text_field :name %>
-          <%= f.submit %>
+	  <%= button_tag( :class => "entypo-check")  %>
+	    
+	 
+
           <% end %>    
         </div>
 	
@@ -21,11 +24,12 @@
 			<% if count == 4 %>
 			  <li class="ellipse">...</li>
 			<% end %>
-			<li class="extra_names"><%= u.name %></li>
+			<li class="extra_names"><%= u.name %>
+			<d class="extra_names"><%= link_to '',  { action: :destroy, id: u.id }, method: :delete, data: { confirm: 'Are you sure?' },class: "entypo-cancel" %></d>
+			</li>
 		  <% else %>
 			<li><%= u.name %>
-			<%= link_to 'Destroy', post_user_path(@user),
-            			data: {:confirm => 'Are you sure?'}, :method => :delete %>
+			<d class="extra_names"><%= link_to '',  { action: :destroy, id: u.id }, method: :delete, data: { confirm: 'Are you sure?' },class: "entypo-cancel" %></d>
 			</li>
 		  <% end %>
           

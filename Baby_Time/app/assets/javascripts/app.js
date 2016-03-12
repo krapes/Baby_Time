@@ -76,6 +76,7 @@ var openForm = function(e){
 	$('.input').children('div').fadeIn(600);
 	$('.input').children('.ellipse').fadeOut(100);
 	$('.input').children('.extra_names').fadeIn(100);
+	$('.input').children('li').children('.extra_names').fadeIn(100);
 
 
 }
