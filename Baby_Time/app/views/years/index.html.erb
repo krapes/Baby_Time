@@ -23,7 +23,9 @@
 			<% end %>
 			<li class="extra_names"><%= u.name %></li>
 		  <% else %>
-			<li><%= u.name %></li>
+			<li><%= u.name %>
+			<%= link_to 'Destroy',  { action: :destroy, id: u.id }, method: :delete, data: { confirm: 'Are you sure?' } %>
+			</li>
 		  <% end %>
           
           <% end %>

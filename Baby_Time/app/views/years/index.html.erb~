@@ -23,7 +23,10 @@
 			<% end %>
 			<li class="extra_names"><%= u.name %></li>
 		  <% else %>
-			<li><%= u.name %></li>
+			<li><%= u.name %>
+			<%= link_to 'Destroy', post_user_path(@user),
+            			data: {:confirm => 'Are you sure?'}, :method => :delete %>
+			</li>
 		  <% end %>
           
           <% end %>

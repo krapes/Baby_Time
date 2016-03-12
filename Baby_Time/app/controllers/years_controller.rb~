@@ -1,5 +1,5 @@
 class YearsController < ApplicationController
-  before_action :set_year , only: [:show, :edit, :update, :destroy] 
+  #before_action :set_year , only: [:show, :edit, :update, :destroy] 
 
   # GET /years
   # GET /years.json
@@ -58,9 +58,11 @@ class YearsController < ApplicationController
   # DELETE /years/1
   # DELETE /years/1.json
   def destroy
-    @year.destroy
+ #   @year.destroy
+	@user = User.find(params[:id])
+	@user.destroy
     respond_to do |format|
-      format.html { redirect_to years_url }
+      format.html { redirect_to years_index }
       format.json { head :no_content }
     end
   end

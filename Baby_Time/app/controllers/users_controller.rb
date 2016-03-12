@@ -32,6 +32,15 @@ class UsersController < ApplicationController
 		    end
 	end
 
+	def destroy
+	    @user = User.find(user_params)
+	    @user.destroy
+	    respond_to do |format|
+	      format.html { redirect_to years_index }
+	      format.json { head :no_content }
+	    end
+	end
+
 	def user_params
      	 params.require(:user).permit(:name, :assignment_id)
     	end
