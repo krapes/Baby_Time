@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20150824080443) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "assignments", force: true do |t|
     t.integer  "year_id"
     t.integer  "month_id"
@@ -20,8 +23,8 @@ ActiveRecord::Schema.define(version: 20150824080443) do
     t.datetime "updated_at"
   end
 
-  add_index "assignments", ["month_id"], name: "index_assignments_on_month_id"
-  add_index "assignments", ["year_id"], name: "index_assignments_on_year_id"
+  add_index "assignments", ["month_id"], name: "index_assignments_on_month_id", using: :btree
+  add_index "assignments", ["year_id"], name: "index_assignments_on_year_id", using: :btree
 
   create_table "months", force: true do |t|
     t.string   "nam"
@@ -36,7 +39,7 @@ ActiveRecord::Schema.define(version: 20150824080443) do
     t.integer  "assignment_id"
   end
 
-  add_index "users", ["assignment_id"], name: "index_users_on_assignment_id"
+  add_index "users", ["assignment_id"], name: "index_users_on_assignment_id", using: :btree
 
   create_table "years", force: true do |t|
     t.string   "name"

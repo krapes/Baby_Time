@@ -1,3 +1,7 @@
+# to purge database run rake db:reset db:migrate or rake db:drop db:create db:migrate
+# to rewrite seed page from current database run rake export:seeds_format > db/seeds.rb
+
+
 Year.create("name"=>"2016")
 Year.create("name"=>"2017")
 Month.create("nam"=>"January")
