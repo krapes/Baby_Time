@@ -1,4 +1,0 @@
-class Year < ActiveRecord::Base
-has_many :assignments
-has_many :months, through: :assignments
-end

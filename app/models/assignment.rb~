@@ -1,0 +1,5 @@
+class Assignment < ActiveRecord::Base
+belongs_to :year
+belongs_to :month
+belongs_to :user
+end

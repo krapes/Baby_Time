@@ -1,4 +1,0 @@
-class AddUserToAssignment < ActiveRecord::Migration
-  def change
-  end
-end
