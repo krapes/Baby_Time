@@ -5,7 +5,8 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => false %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => false %>
   <%= csrf_meta_tags %>
-  <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   	<link rel="stylesheet" href="/assets/small.css">
   	<link rel="stylesheet" media='(-webkit-min-device-pixel-ratio: 2)' href="/assets/smallx2.css">
     <link rel="stylesheet" media='screen and (min-width: 600px) and (min-device-width: 600px)' href="/assets/medium.css">
@@ -65,7 +66,7 @@
 		</tab>
   		<div class="title">Great Pedela Baby Race</div>
   		<tab id="icon">
-  			<a href="https://github.com/krapes/Baby_Time" class="brandico-github social"></a>
+  			<a href="https://github.com/krapes/Baby_Time" class="fa fa-github-alt social"></a>
   		</tab>
 	</div>
 

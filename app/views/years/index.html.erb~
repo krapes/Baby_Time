@@ -10,9 +10,9 @@
 	  <%= form_for @user do |f| %>
 	  <%= f.hidden_field :assignment_id, :value => ass.id %>
 	  <%= f.text_field :name %>
-	  <%= button_tag( :class => "entypo-check")  %>
+	  <%= button_tag( :class => "fa fa-check") do %>
 	    
-	 
+	  <% end %>
 
           <% end %>    
         </div>

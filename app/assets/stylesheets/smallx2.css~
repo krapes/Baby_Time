@@ -93,7 +93,7 @@
 /*  	-ms-flex-justify-content: left;              /* TWEENER - IE 10 */
 /*  	-webkit-justify-content: left;               /* NEW - Chrome */
 /*     justify-content: left;                  /* NEW, Spec - Opera 12.1,*/
-} 
+ 
 .year {
 	border-radius: 32px 32px 0px 0px;
 	font-size: 40px;
