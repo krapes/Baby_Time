@@ -1,0 +1,117 @@
+
+
+.nav_bar tab{
+	margin-top: 20px;
+}
+.nav_bar .nav{
+	padding: 30px;
+	text-shadow: 20px 20px 20px rgba(170, 170, 170, 0.55);
+}
+
+.social {
+	padding-right: 40px;
+	padding-left: 40px;
+	text-shadow: 20px 20px 20px rgba(170, 170, 170, 0.55);
+	
+}
+
+
+.art{
+	margin-top: 3vh;
+}
+
+
+	.line:after{
+		border-top: 4px solid #8C8A8A;
+	}
+
+
+.heart-shape{
+    width: 8px;
+    height: 8px;
+}
+	.heart-shape:before,
+	.heart-shape:after{
+	    width: 8px;
+	    height: 8px;
+	    content: '';
+
+	}
+	.heart-shape:before{
+	    left: -4px;
+	}
+	.heart-shape:after{
+	    top: -4px;
+	}
+
+
+
+
+.container{
+	height: 65vw;
+}
+
+
+.pitch {
+	font-size: 36px;
+    width: calc(100% - 60px);   
+    padding-left:30px; 
+}
+
+
+.calander{
+	max-width: 1600px;
+	margin-bottom: 20px;
+}
+
+.calander m {
+	width: 250px;
+	height: 160px;
+	padding: 20px;
+	border-radius: 50px;
+	margin: 10px;
+	background-color: #E3EAF1;
+	font-size: 4vw;
+}
+
+.calander h1{
+	font-size: 40px;
+}
+
+.calander ul{
+	margin-bottom: 4px;
+}
+
+
+.calander li{
+	padding-left: 20px;
+	font-size: 30px;
+}
+/*.calander m ul{
+	-webkit-box-ordinal-justify-content: left;   /* OLD - iOS 6-, Safari 3.1-6 */
+/*  	-moz-box-ordinal-justify-content: left;      /* OLD - Firefox 19- */
+/*  	-ms-flex-justify-content: left;              /* TWEENER - IE 10 */
+/*  	-webkit-justify-content: left;               /* NEW - Chrome */
+/*     justify-content: left;                  /* NEW, Spec - Opera 12.1,*/
+} 
+.year {
+	border-radius: 32px 32px 0px 0px;
+	font-size: 40px;
+}
+
+
+.year2015 {
+	border: 6px solid #6767B1;
+	border-radius: 50px;
+}
+
+.year2016 {
+	border: 6px solid #E44E4E;
+	border-radius: 50px;
+}
+
+.input {
+	max-width: 960px;
+	max-height: 768px;
+}
+

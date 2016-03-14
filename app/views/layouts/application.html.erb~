@@ -26,7 +26,7 @@
 	/* entypo */
 		[class*="entypo-"]:before {
 		  font-family: 'entypo', sans-serif;
-		  color: #565454;
+	/*	  color: #565454;*/
 		  text-decoration: none;
 		}
 			}
