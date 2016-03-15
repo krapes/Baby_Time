@@ -326,7 +326,7 @@ body {
 	position: fixed;
 	left: 50%;
 	top: 50%;
-	margin-left: -40vw;
+	margin-left: -40vw ;
 	margin-top: -32vh;
 	width: 80%;
 	max-width: 480px;
@@ -379,7 +379,7 @@ body {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
-	font-size: 75%;
+	font-size: 70%;
 	font-family: playball;
 }
 
