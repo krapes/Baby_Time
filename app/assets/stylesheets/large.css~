@@ -129,10 +129,7 @@ body{
 	font-size: 18px;
 }
 
-.input {
-	width:480px;
-	margin-left: calc(100% - 480px/2);
-}
+
 
 /*
 @media (max-height: 770px) {
