@@ -37,7 +37,7 @@
 		  		<p>The POC Alumni Association has opened the floor to the Great Pedela Baby Race. </p>
 		  		<p>Use your mad skillz to determine the month conception. One bet per person, and multiple players can choose the same month. Cost is $20  and the pot will be split evenly among all those that chose the correctly.</p> 
 	
-				<a href="#" class="btn">View Calander</a>
+				<a href="#" class="btn">View Calender</a>
 	</div>
 
 <%= yield %>
